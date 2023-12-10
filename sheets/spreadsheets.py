@@ -2,7 +2,6 @@
 
 from data.googleAPI_creating import sheet_id, sheet
 
-import creds.googleAPI as googleAPI
 
 class Sheets():
 
