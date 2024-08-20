@@ -5,7 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import httplib2
 
 # Spreadsheet token
-sheet_id = '10kzNOwgcP8DfE22z2zLcW4AwgO8KlRubMg-ejmx0V2Y'
+sheet_id = '<Your sheet id token>'
 
 def get_service_sacc():
     creds_json = os.path.dirname(__file__)[:-4] + "/creds/googleAPI/token.json"
